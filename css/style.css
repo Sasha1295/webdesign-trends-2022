@@ -1,0 +1,239 @@
+body {
+	width: 960px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	font: normal 1.1em 'open sans';
+	line-height: 1.4;
+	background: #000;
+	color: #000;
+}
+
+h1, h2, h3 {
+	color: #000;
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 1.7em;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+p {
+	margin-bottom: 1.1em;
+}
+
+ul {
+	list-style-type: disc;
+	margin: 1.5em;
+}
+
+#header {
+	background-color: #303030;
+	padding: 32px 32px 0 46px;
+}
+
+#header-nav {
+	height: 39px;
+	text-align: right;
+	color: #666;
+	font-size: 1.2em;
+}
+
+#header-nav-link a {
+	color: #778899;
+	text-decoration: none;
+}
+
+#header-nav-link a:hover {
+	color: #DB7093;
+	font-weight: bold;
+}
+
+#header-nav-link span.text-separator {
+	color: #444;
+}
+
+#logo {
+	color: #FFF;
+}
+
+#site-title a {
+	text-decoration: none;
+}
+
+#site-title, #site-title a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#site-slogan {
+	color: #BC8F8F;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+#primaire-nav {
+	background-color: #DB7093;
+	height: 46px;
+	padding: 7px 9px;
+}
+
+#primaire-nav a {
+	color: #EAE6DD;
+	display: block;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 9px 10px;
+}
+
+#primaire-nav a:hover {
+	color: #FFF;
+}
+
+ul.tab {
+	display: inline;
+}
+
+ul.tab li {
+	float: left;
+	list-style: none;
+}
+
+ul.tab a {
+	text-decoration: none;
+}
+
+#div {
+width: 150px;
+margin-left: 300px;
+margin-top: 38px;
+border-style: none;
+background-color: #BC8F8F;
+} 
+
+.gsc-control-cse {
+  background:transparent !important; /* enforce this rule; do not allow override */
+  border-color:transparent !important; /* border color */
+}
+
+.inhoud {
+	font-size: 1.1em;
+	background-color: #FFFFE0;
+	min-height: 400px;
+	float: center;
+}
+
+.inhoud a {
+	color: #BC8F8F;
+	text-decoration: none;
+}
+
+.inhoud a:hover {
+	color: #DB7093;
+	font-weight: bold;
+}
+
+.webdesigntrends2-afbeelding {
+  padding: 0 65px 0 65px; 
+}
+
+.webdesigntrends-afbeelding {
+	padding: 0 12px 0 12px; 
+}
+
+#tekst-inhoud {
+	padding: 18px;
+}
+
+.artikel {
+	text-align: justify;
+	color: #000;
+	padding: 15px 20px 20px 15px;
+	
+}
+
+.artikel-voet {
+	text-align: right;
+	font-size: 1em;
+}
+
+.nieuws a {
+	text-decoration: none;
+	text-align: justify;
+	color: #BC8F8F;
+	font-size: 1em;
+}
+
+.nieuws-afbeelding {
+	float: left;
+	width: 130px;
+}
+
+.nieuws-afbeelding a {
+	padding: 5px;
+}
+
+.nieuws-afbeelding:hover {
+opacity: 0.8;
+}
+
+.nieuws-tekst h3 {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+#voet-nav {
+	background: #303030;
+	border-top: 1px solid #303030;
+	font-size: 1.1em;
+	padding: 7px 9px;
+	margin-bottom: 7px;
+}
+
+#voet-nav a {
+	color: #778899;
+	text-decoration: none;
+}
+
+#voet-nav a:hover {
+	color: #DB7093;
+	font-weight: bold;
+}
+
+#voet-nav span.text-separator {
+	color: #444;
+}
+
+#footer {
+	color: #778899;
+	padding: 0 7px 9px;
+	font: normal 0.9em sans-serif;
+}
+
+#footer a {
+	color: #778899;
+	text-decoration: none;
+}
+
+#footer a:hover, #bottom.left a:hover {
+	color: #778899;
+}
+
+#footer span.text-separator {
+	color: #778899;
+	padding: 3px;
+}
+
+.left {
+	float: left;
+}

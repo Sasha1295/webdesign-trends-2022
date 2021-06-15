@@ -37,30 +37,10 @@ ul {
 }
 
 #header {
-	background-color: #303030;
+	background-color: #000000;
 	padding: 32px 32px 0 46px;
 }
 
-#header-nav {
-	height: 39px;
-	text-align: right;
-	color: #666;
-	font-size: 1.2em;
-}
-
-#header-nav-link a {
-	color: #778899;
-	text-decoration: none;
-}
-
-#header-nav-link a:hover {
-	color: #DB7093;
-	font-weight: bold;
-}
-
-#header-nav-link span.text-separator {
-	color: #444;
-}
 
 #logo {
 	color: #FFF;
@@ -76,78 +56,36 @@ ul {
 }
 
 #site-slogan {
-	color: #BC8F8F;
-	font-size: 1.3em;
-	text-decoration: none;
-}
-
-#primaire-nav {
-	background-color: #DB7093;
-	height: 46px;
-	padding: 7px 9px;
-}
-
-#primaire-nav a {
-	color: #EAE6DD;
-	display: block;
-	font-weight: bold;
-	font-size: 1.3em;
-	padding: 9px 10px;
-}
-
-#primaire-nav a:hover {
 	color: #FFF;
-}
-
-ul.tab {
-	display: inline;
-}
-
-ul.tab li {
-	float: left;
-	list-style: none;
-}
-
-ul.tab a {
+	font-size: 1.3em;
 	text-decoration: none;
 }
-
-#div {
-width: 150px;
-margin-left: 300px;
-margin-top: 38px;
-border-style: none;
-background-color: #BC8F8F;
-} 
 
 .gsc-control-cse {
   background:transparent !important; /* enforce this rule; do not allow override */
   border-color:transparent !important; /* border color */
 }
 
+#mountain {
+	width: 40%;
+	height: auto;
+	margin-left: 30%;
+  }
+
 .inhoud {
 	font-size: 1.1em;
 	background-color: #FFFFE0;
 	min-height: 400px;
-	float: center;
-}
+	}
 
 .inhoud a {
-	color: #BC8F8F;
+	color: #ae7d7d;
 	text-decoration: none;
 }
 
 .inhoud a:hover {
-	color: #DB7093;
+	color: #4f0a21;
 	font-weight: bold;
-}
-
-.webdesigntrends2-afbeelding {
-  padding: 0 430px 0 430px; 
-}
-
-.webdesigntrends-afbeelding {
-	padding: 0 460px 0 460px; 
 }
 
 #tekst-inhoud {
@@ -169,7 +107,7 @@ background-color: #BC8F8F;
 .nieuws a {
 	text-decoration: none;
 	text-align: justify;
-	color: #BC8F8F;
+	color: #4f0a21;
 	font-size: 1em;
 }
 
@@ -192,25 +130,25 @@ opacity: 0.8;
 }
 
 #voet-nav {
-	background: #303030;
-	border-top: 1px solid #303030;
+	background: #4f0a21;
+	border-top: 1px solid #4f0a21;
 	font-size: 1.1em;
 	padding: 7px 9px;
 	margin-bottom: 7px;
 }
 
 #voet-nav a {
-	color: #778899;
+	color: #c5baa1;
 	text-decoration: none;
 }
 
 #voet-nav a:hover {
-	color: #DB7093;
+	color: #fff;
 	font-weight: bold;
 }
 
 #voet-nav span.text-separator {
-	color: #444;
+	color: #c5baa1;
 }
 
 #footer {
@@ -256,52 +194,23 @@ opacity: 0.8;
 		margin-bottom: 0.9em;
 	}
 	
-	ul {
-		margin: 1em;
-	}
-	
 	#header {
 		padding: 5px 5px 0 9px;
-	}
-	
-	#header-nav {
-		height: 25px;
-		font-size: 0.8em;
 	}
 	
 	#site-slogan {
 		font-size: 0.8em;
 	}
-	
-	#primaire-nav {
-		height: 25px;
-		padding: 2px 3px;
+	 
+	#mountain {
+		width: 90%;
+		margin-left: 5%;
+		padding-top: 20px;
 	}
-	
-	#primaire-nav a {
-		font-size: 0.8em;
-		padding: 2px 3px;
-	}
-	
-	#div {
-	width: 50px;
-	margin-left: 150px;
-	margin-top: 16px;
-	} 
-	
+
 	.inhoud {
 		font-size: 0.9em;
 		min-height: 500px;
-	}
-	
-	.webdesigntrends2-afbeelding {
-		padding: 0;
-		
-	}
-	
-	.webdesigntrends-afbeelding {
-		padding: 0; 
-		
 	}
 	
 	#tekst-inhoud {
@@ -348,12 +257,8 @@ opacity: 0.8;
 		font: normal 0.7em sans-serif;
 	}
 	
-	
 	#footer span.text-separator {
 		padding: 2px;
 	}
 	
-	.left {
-		float: left;
-	}
 }

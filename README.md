@@ -1,2 +1,2 @@
-# webdesign-trends-2021
-Website about webdesign trend 2021
+# webdesign-trends-2022
+Website about webdesign trend 2022
